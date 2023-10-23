@@ -12,7 +12,7 @@
 		...
 		
 		gl32c_t ct = {0};
-		DWORD result = gl32c_create_context(valid_window_handle, &ct, 3, 3)
+		DWORD result = gl32c_create_context(valid_window_handle, &ct, 3, 3);
 		if(result != 0) // Error has occured, check GetLastError() codes
 		{
 			printf("Error\n");
