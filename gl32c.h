@@ -112,7 +112,7 @@ gl32c_zero_init(void *memory, unsigned long size)
 }
 
 // Creates an OpenGL Core Profile with specified version
-// Returns ERROR_SUCCESS(0x0) on succes and a Win32 GetLastError() code if it fails.
+// Returns ERROR_SUCCESS(0x0) on succes or a Win32 GetLastError() code if it fails.
 DWORD 
 gl32c_create_context(HWND valid_window_handle, gl32c_t *ct, int major, int minor)
 {
